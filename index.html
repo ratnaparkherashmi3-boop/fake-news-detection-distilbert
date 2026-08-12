@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fake News Detector</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Fake News Detector</h1>
+
+        <p class="subtitle">
+            AI-powered news classification using NLP
+        </p>
+
+        <div class="input-section">
+
+            <label>News Headline</label>
+
+            <input
+                type="text"
+                id="title"
+                placeholder="Enter news headline..."
+            >
+
+            <label>News Article</label>
+
+            <textarea
+                id="text"
+                placeholder="Paste the news article here..."
+            ></textarea>
+
+            <button onclick="checkNews()">
+                CHECK NEWS
+            </button>
+
+        </div>
+
+        <div id="result" class="result">
+
+            <h2>Prediction</h2>
+
+            <p id="prediction">—</p>
+
+            <p id="confidence">Confidence: —</p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
