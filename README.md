@@ -66,3 +66,17 @@ Confidence Score
   |
   v
 Frontend Result
+
+## Model Limitations
+
+This project is an AI-assisted text classification system and should not be considered a definitive fact-checking system.
+
+The prediction depends on patterns learned from the training dataset. A high confidence score does not guarantee that a news article is factually true or false.
+
+The system should therefore be used as a classification tool and not as a replacement for professional fact-checking.
+
+## Author
+
+**Rashmi Ratnaparkhe**
+
+AI/ML | Python | NLP | Machine Learning
