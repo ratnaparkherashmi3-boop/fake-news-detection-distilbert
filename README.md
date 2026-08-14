@@ -75,6 +75,12 @@ The prediction depends on patterns learned from the training dataset. A high con
 
 The system should therefore be used as a classification tool and not as a replacement for professional fact-checking.
 
+## Demo
+
+The application provides a web-based interface for entering a news headline and article and receiving a Fake News or Factual News prediction with a confidence score.
+
+The Flask REST API can be accessed through a temporary public tunnel during development and testing.
+
 ## Author
 
 **Rashmi Ratnaparkhe**
