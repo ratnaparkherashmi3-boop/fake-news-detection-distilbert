@@ -38,44 +38,31 @@ The system combines a trained NLP model with a Flask REST API and a web-based fr
 
 ## Project Architecture
 
+
 User
-  ↓
+  |
+  v
 HTML + CSS + JavaScript
-  ↓
+  |
+  v
 JavaScript Fetch API
-  ↓
+  |
+  v
 Flask REST API
-  ↓
+  |
+  v
 DistilBERT NLP Model
-  ↓
+  |
+  v
 Binary Classification
-  ↓
-Fake News / Factual News
-  ↓
+  |
+  +-------------------+
+  |                   |
+  v                   v
+Fake News       Factual News
+  |
+  v
 Confidence Score
-  ↓
+  |
+  v
 Frontend Result
-
-Model Limitations
-
-This project is an AI-assisted text classification system and should not be considered a definitive fact-checking system.
-
-The prediction depends on patterns learned from the training dataset. A high confidence score does not guarantee that a news article is factually true or false.
-
-The system should therefore be used as a classification tool and not as a replacement for professional fact-checking.
-
-Future Improvements
-Improve model performance through hyperparameter tuning
-Add precision, recall and F1-score reporting
-Add confusion matrix visualization
-Improve handling of long articles
-Add prediction history
-Improve frontend user experience
-Deploy the backend on a permanent cloud platform
-Add model explainability
-Add automated model monitoring
-Author
-
-Rashmi Ratnaparkhe
-
-AI/ML | Python | NLP | Machine Learning
