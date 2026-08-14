@@ -254,9 +254,9 @@ def predict_news(title, text):
     confidence = probabilities[0][predicted_class].item() * 100
 
     if predicted_class == 0:
-        prediction = "Fake News"
-    else:
-        prediction = "Factual News"
+    prediction = "Factual News"
+else:
+    prediction = "Fake News"
 
     return prediction, confidence
 
